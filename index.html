@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/jpg" href="logo/fav.jpg" sizes="32x32" />
+    <title>Egg Counter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="about about--active">
+        <button class="btn"><span>X</span></button>
+        <img
+          src="logo/Egg_Counter-logos_transparent-removebg-preview.png"
+          alt="logo"
+        />
+        <h2>How To Play</h2>
+        <p>
+          <b>Walk Right:</b> <kbd>Space</kbd> + <kbd>&#8680;</kbd><br />
+          <b>Walk Left:</b> <kbd>Space</kbd> + <kbd>&#8678;</kbd><br />
+          <b>Lay An Egg:</b> <kbd>&#x21e9;</kbd> <br />
+          <b>Finish The Game:</b> <kbd>Esc</kbd>
+        </p>
+      </div>
+      <div class="overlay"></div>
+    </div>
+
+    <div class="container2 hidden">
+      <div class="about">
+        <img
+          src="logo/Egg_Counter-logos_transparent-removebg-preview.png"
+          alt="logo"
+        />
+        <h2>Exit the Game?</h2>
+        <button class="btn2 btn--yes">Yes</button>
+        <button class="btn2 btn--no">No</button>
+      </div>
+      <div class="overlay"></div>
+    </div>
+
+    <div class="chicken"></div>
+    <div class="egg"></div>
+    <div class="counter"><span class="count">0</span></div>
+    <!-- <div class="chickenWalking"></div> -->
+    <script src="scrypt.js"></script>
+  </body>
+</html>
